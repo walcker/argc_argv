@@ -10,6 +10,14 @@
 using namespace std;
 
 int main(int argc, char *argv[]){
+
+  //Permite usar acentos
+    setlocale(LC_ALL,"");
+
+  int ic; //initial credit
+  int nr; //number of rounds
+  int spots;// numeros apostados, máximo 15
+
   //imprime todos os argumentos recebidos na execução
   //do programa, para testar, compile e faça
   //./a.out arg1 arg2 arg2
