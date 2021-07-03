@@ -25,11 +25,16 @@ int main(int argc, char *argv[]){
   //./a.out arg1 arg2 arg2
   //o primeiro argumento é sempre o nome 
   //do programa (a.out, neste exemplo)
+
+  //Coloca os argumentos no vetor argv
   for(int i = 0; i < argc; i++){
     cout << "Argumento[" <<i<< "]: " << argv[i] << endl;
-    vetor[i] = argv[i];
+    vetor[i] = argv[i]; //atribui os valores do argv a um vetor
   }
 
+  cout << endl;
+
+  //Imprime o vetor que recebe os valores do argv
   for(int i = 0; i <= 3; i++){
     cout << vetor[i] << " " << endl;
   }
